@@ -1,0 +1,8 @@
+prefix=/home/ros1/catkin_ws/src/build/devel
+
+Name: kortex_driver
+Description: Description of kortex_driver
+Version: 2.2.2
+Cflags: -I/home/ros1/catkin_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs

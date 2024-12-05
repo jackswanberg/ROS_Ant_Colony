@@ -1,0 +1,15 @@
+<launch>
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch">
+    <!-- <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/turtlebot3_world.world"/> -->
+    <!-- <arg name="paused" value="false"/> -->
+    <!-- <arg name="use_sim_time" value="true"/> -->
+    <!-- <arg name="gui" value="true"/> -->
+    <!-- <arg name="headless" value="false"/> -->
+    <!-- <arg name="debug" value="false"/> -->
+  </include>
+  
+  <node pkg="hw_pkg" name="obstacle_avoidance" type="obstacle_avoidance_teleop.py" output="screen"/>
+  <node pkg="turtlebot3_teleop" name="teleop" type="turtlebot3_teleop_key" output="screen"/>
+</launch>
+

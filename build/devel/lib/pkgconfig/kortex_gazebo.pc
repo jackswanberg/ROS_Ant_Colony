@@ -1,0 +1,8 @@
+prefix=/home/ros1/catkin_ws/src/build/devel
+
+Name: kortex_gazebo
+Description: Description of kortex_gazebo
+Version: 2.2.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

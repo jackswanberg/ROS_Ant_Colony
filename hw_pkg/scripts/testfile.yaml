@@ -1,0 +1,228 @@
+!!python/object/new:moveit_msgs.msg._DisplayTrajectory.DisplayTrajectory
+state:
+- gen3_robotiq_2f_85
+- - !!python/object/new:moveit_msgs.msg._RobotTrajectory.RobotTrajectory
+    state:
+    - !!python/object/new:trajectory_msgs.msg._JointTrajectory.JointTrajectory
+      state:
+      - !!python/object/new:std_msgs.msg._Header.Header
+        state:
+        - 0
+        - !!python/object/new:genpy.rostime.Time
+          state:
+          - 0
+          - 0
+        - world
+      - - joint_1
+        - joint_2
+        - joint_3
+        - joint_4
+        - joint_5
+        - joint_6
+        - joint_7
+      - - !!python/object/new:trajectory_msgs.msg._JointTrajectoryPoint.JointTrajectoryPoint
+          state:
+          - !!python/tuple
+            - 7.18700186297383e-06
+            - 0.2602097519537212
+            - 3.140031546771105
+            - -2.2701171966432963
+            - 7.186233123235297e-06
+            - 0.9596573969876818
+            - 1.570012848361169
+          - !!python/tuple
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+          - !!python/tuple
+            - 0.8400000000000002
+            - 0.345776046909613
+            - 0.42023636675758447
+            - 0.26057624155919523
+            - 0.4388569483271719
+            - -0.24833030971026643
+            - -0.031719259266484195
+          - !!python/tuple []
+          - !!python/object/new:genpy.rostime.Duration
+            state:
+            - 0
+            - 0
+        - !!python/object/new:trajectory_msgs.msg._JointTrajectoryPoint.JointTrajectoryPoint
+          state:
+          - !!python/tuple
+            - 9.61874084827133e-05
+            - 0.26024638791654775
+            - 3.1400760720181498
+            - -2.2700895878439455
+            - 5.368438413396898e-05
+            - 0.9596310856798962
+            - 1.5700094876147732
+          - !!python/tuple
+            - 0.0031031729526416
+            - 0.0012773843767122399
+            - 0.001552459675027933
+            - 0.0009626346963813541
+            - 0.0016212488239615618
+            - -0.0009173951194930886
+            - -0.00011717898505851586
+          - !!python/tuple
+            - -0.5551534252797228
+            - -0.22852232954979237
+            - -0.2777329267070952
+            - -0.17221403933720641
+            - -0.29003921199004246
+            - 0.16412074052390893
+            - 0.020963161223446183
+          - !!python/tuple []
+          - !!python/object/new:genpy.rostime.Duration
+            state:
+            - 0
+            - 21788382
+        - !!python/object/new:trajectory_msgs.msg._JointTrajectoryPoint.JointTrajectoryPoint
+          state:
+          - !!python/tuple
+            - 0.00010246777431245991
+            - 0.260248973154726
+            - 3.1400792139682903
+            - -2.270087639612846
+            - 5.69655533987557e-05
+            - 0.9596292290070492
+            - 1.5700092504617351
+          - !!python/tuple
+            - -2.3399499889348547e-05
+            - -9.632126864938914e-06
+            - -1.17063342890854e-05
+            - -7.258754608187744e-06
+            - -1.2225039421217175e-05
+            - 6.917624948006886e-06
+            - 8.835891128608508e-07
+          - !!python/tuple
+            - 0.21953334926456095
+            - 0.09036830199361666
+            - 0.10982844890669993
+            - 0.06810139883715531
+            - 0.11469492346939072
+            - -0.06490093408699649
+            - -0.008289803826636934
+          - !!python/tuple []
+          - !!python/object/new:genpy.rostime.Duration
+            state:
+            - 0
+            - 40419999
+        - !!python/object/new:trajectory_msgs.msg._JointTrajectoryPoint.JointTrajectoryPoint
+          state:
+          - !!python/tuple
+            - 0.00010247298818029549
+            - 0.2602489753009529
+            - 3.1400792165766913
+            - -2.270087637995453
+            - 5.696827737747868e-05
+            - 0.9596292274656665
+            - 1.5700092502648542
+          - !!python/tuple
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.0
+          - !!python/tuple
+            - -0.1471672573852372
+            - -0.06057965774918286
+            - -0.07362503999881763
+            - -0.045652726626656925
+            - -0.0768873493687638
+            - 0.04350725110482121
+            - 0.005557185983211792
+          - !!python/tuple []
+          - !!python/object/new:genpy.rostime.Duration
+            state:
+            - 0
+            - 41066697
+    - !!python/object/new:trajectory_msgs.msg._MultiDOFJointTrajectory.MultiDOFJointTrajectory
+      state:
+      - !!python/object/new:std_msgs.msg._Header.Header
+        state:
+        - 0
+        - !!python/object/new:genpy.rostime.Time
+          state:
+          - 0
+          - 0
+        - ''
+      - []
+      - []
+- !!python/object/new:moveit_msgs.msg._RobotState.RobotState
+  state:
+  - !!python/object/new:sensor_msgs.msg._JointState.JointState
+    state:
+    - !!python/object/new:std_msgs.msg._Header.Header
+      state:
+      - 0
+      - !!python/object/new:genpy.rostime.Time
+        state:
+        - 0
+        - 0
+      - world
+    - - joint_1
+      - joint_2
+      - joint_3
+      - joint_4
+      - joint_5
+      - joint_6
+      - joint_7
+      - finger_joint
+      - left_inner_finger_joint
+      - left_inner_knuckle_joint
+      - right_inner_knuckle_joint
+      - right_outer_knuckle_joint
+      - right_inner_finger_joint
+    - !!python/tuple
+      - 7.18700186297383e-06
+      - 0.2602097519537212
+      - 3.140031546771105
+      - -2.2701171966432963
+      - 7.186233123235297e-06
+      - 0.9596573969876818
+      - 1.570012848361169
+      - 2.2554287024689756e-06
+      - -2.2554287024689756e-06
+      - 2.2554287024689756e-06
+      - 2.2554287024689756e-06
+      - 2.2554287024689756e-06
+      - -2.2554287024689756e-06
+    - !!python/tuple
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    - !!python/tuple []
+  - !!python/object/new:sensor_msgs.msg._MultiDOFJointState.MultiDOFJointState
+    state:
+    - !!python/object/new:std_msgs.msg._Header.Header
+      state:
+      - 0
+      - !!python/object/new:genpy.rostime.Time
+        state:
+        - 0
+        - 0
+      - world
+    - []
+    - []
+    - []
+    - []
+  - []
+  - false

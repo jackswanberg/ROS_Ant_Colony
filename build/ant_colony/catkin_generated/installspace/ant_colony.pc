@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: ant_colony
+Description: Description of ant_colony
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
