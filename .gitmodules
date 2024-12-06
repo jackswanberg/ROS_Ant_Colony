@@ -7,3 +7,7 @@
 [submodule "turtlebot3_simulations"]
 	path = turtlebot3_simulations
 	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+[submodule "ant_colony/src/luminescent-ants"]
+	path = ant_colony/src/luminescent-ants
+	url = https://github.com/mariojerez/luminescent-ants.git
+	branch = ROS_integration
