@@ -1,6 +1,6 @@
 <launch>
 
-	<include file="$(find hw_pkg)/launch/multiple_robots.launch" />
+	<include file="$(find ant_colony)/launch/multiple_robots.launch" />
 
 	<node type="ACO_forage.py" name="petting_zoo" pkg="ant_colony" output="screen"/>
 
